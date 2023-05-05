@@ -55,7 +55,7 @@ img {display: block;}
 button {
   cursor: pointer;
 }
-.cointainer {
+.container {
   width: 1158px;
   margin-left: auto;
   margin-right: auto;
@@ -74,6 +74,7 @@ padding-bottom: 24px;}
 
 .header-container {display: flex;
   align-items: center;
+  border-bottom: 1px solid #e7e9fc
 }
 .link-logo {margin-right: 76px;}
 /* list navigation */
@@ -159,6 +160,9 @@ color: var(--color-sec);
 }
 
 /* strategy 2 */
+.strategy-block {
+  padding-top: 120px;
+  padding-bottom: 120px;}
 .strategy-head {
   font-style: normal;
   font-weight: 500;
@@ -166,7 +170,6 @@ color: var(--color-sec);
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding-top: 120px;
   margin-bottom: 8px;
   width: calc((100% - 72px) / 4);
 }
