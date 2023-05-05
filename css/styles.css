@@ -58,20 +58,24 @@ button {
 .cointainer {
   width: 1158px;
   margin-left: auto;
-margin-right: auto;}
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px}
 
 /* header */
 
 .main-navigation {display: flex;
-align-items: center;
-column-gap: 76px;}
-.list-navigation {display: flex;
-column-gap: 40px;}
+align-items: center;}
+.list-navigation {
+display: flex;
+gap: 40px;
+padding-top: 24px;
+padding-bottom: 24px;}
 
 .header-container {display: flex;
   align-items: center;
-border-bottom: 1px solid #E7E9FC;}
-
+}
+.link-logo {margin-right: 76px;}
 /* list navigation */
   .list-link { 
     font-weight: 500;
@@ -83,6 +87,10 @@ border-bottom: 1px solid #E7E9FC;}
     .list-link:focus {color: #404BBF;}
     .list-link:visited {color:#2E2F42;}
 /* mobile and mail */
+.adress-list {display: flex;
+gap: 40px;}
+
+
 .adress-nav {
   font-style:normal;
   font-weight: 400;
@@ -92,9 +100,6 @@ border-bottom: 1px solid #E7E9FC;}
   color: var(--color-sec);
   margin-left: auto;
 }
-.adress-list {display: flex;}
-
-.list-mobile {margin-right: 40px;}
 
 .adress-link {
 font-weight: 400;
@@ -110,29 +115,31 @@ color: var(--color-sec);
 }
 /* hero page  and button*/
 .main-section {
-  
+  padding: 188px 0;
   background-color: #2e2f42;
 }
 .main-text-head {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  
+  max-width: 496px;
   text-align: center;
-  align-items: center;
   letter-spacing: 0.02em;
   color: #ffffff;
-  
-
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
 }
 .button-order {
+  display: block;
   font-family: var(--maint-font);
-  width: 169px;
-  height: 56px;
+  min-width: 169px;
+  min-height: 56px;
   left: 636px;
   top: 428px;
   background: #4d5ae5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: none;
   border-radius: 4px;
   /* text in  button */
   font-weight: 500;
@@ -141,6 +148,8 @@ color: var(--color-sec);
   align-items: center;
   letter-spacing: 0.04em;
   color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
 }
   
 /* background button */
@@ -148,8 +157,6 @@ color: var(--color-sec);
 .button-order:focus {
   background-color: #404BBF;
 }
-
-
 
 /* strategy 2 */
 .strategy-head {
@@ -159,6 +166,9 @@ color: var(--color-sec);
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding-top: 120px;
+  margin-bottom: 8px;
+  width: calc((100% - 72px) / 4);
 }
 .strategy-head-p {
   font-weight: 400;
@@ -167,6 +177,11 @@ color: var(--color-sec);
   letter-spacing: 0.02em;
   color: #434455;
 }
+.strategy-list {
+  display: flex;
+  gap: 24px;}
+
+
 /* what are you */
 .what-are-head {
   font-weight: 700;
