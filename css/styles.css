@@ -200,12 +200,14 @@ color: var(--color-sec);
   text-transform: capitalize;
   color: #2e2f42;
   margin-bottom: 72px;}
-.what-are-list {display: flex;
-gap: 24px;}
+.what-are-list {
+  display: flex;
+  gap: 24px;}
 .what-are-list-sec {
   width: calc((100%-48px)/3);
 }
-.div-whatareyou {padding-bottom: 120px;}
+.what-are {padding-bottom: 120px;}
+/* .div-whatareyou {padding-bottom: 120px;} */
 
 /* team section */
 .team-div {padding-top: 120px;
