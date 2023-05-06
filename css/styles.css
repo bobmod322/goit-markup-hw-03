@@ -63,19 +63,22 @@ button {
   padding-right: 15px}
 
 /* header */
-main-header {  border-bottom: 1px solid #e7e9fc}
+.main-header {  border-bottom: 1px solid #e7e9fc;}
 .main-navigation {display: flex;
-align-items: center;}
+align-items: center;
+}
+
+.list-nav {padding-top: 24px;
+  padding-bottom: 24px}
+  
 .list-navigation {
 display: flex;
 gap: 40px;
 }
-.list-nav {padding-top: 24px;
-  padding-bottom: 24px;}
+
 
 .header-container {display: flex;
   align-items: center;
-
 }
 .link-logo {margin-right: 76px;}
 /* list navigation */
@@ -248,7 +251,6 @@ gap: 24px;}
 .footer-main {padding-bottom: 100px;
 padding-top: 100px;}
 
-.link-logo {margin-bottom: 16px;}
 
 .footer {
   background-color: #2e2f42;
