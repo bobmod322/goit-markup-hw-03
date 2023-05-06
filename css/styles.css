@@ -260,14 +260,14 @@ gap: 24px;}
 /* footer logo and text */
 .footer {
   background-color: #2e2f42;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .logo-footer {
   font-weight: 800;
   font-size: 18px;
   line-height: 21px;
-  display: flex;
+  display: inline-block;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -280,7 +280,6 @@ gap: 24px;}
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  
 }
 
 .link-logo-footer {
