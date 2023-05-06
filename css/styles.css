@@ -70,7 +70,7 @@ align-items: center;
 
 .list-nav {padding-top: 24px;
   padding-bottom: 24px}
-  
+
 .list-navigation {
 display: flex;
 gap: 40px;
@@ -164,7 +164,7 @@ color: var(--color-sec);
 }
 
 /* strategy 2 */
-.strategy-block {
+.strategy-sec {
   padding-top: 120px;
   padding-bottom: 120px;}
 .strategy-head {
