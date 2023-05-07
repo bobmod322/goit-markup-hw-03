@@ -69,12 +69,10 @@ button {
 align-items: center;
 }
 
-.list-nav {padding-top: 24px;
-  padding-bottom: 24px}
-
 .list-navigation {
 display: flex;
 gap: 40px;
+padding: 24px 0;
 }
 
 
