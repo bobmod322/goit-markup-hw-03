@@ -21,6 +21,14 @@ margin-top: 0;
 margin-bottom: 0;
 padding-left: 0;}
 img {display: block;}
+
+.container {
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px}
+
 /* navigation link */
 .link-logo {
   font-family: var(--secondary-font);
@@ -33,6 +41,7 @@ img {display: block;}
   text-transform: uppercase;
   color: #4d5ae5;
 }
+.link-logo {margin-right: 76px;}
 .logo-studio {
   font-family: var(--secondary-font);
   font-weight: 800;
@@ -56,12 +65,7 @@ img {display: block;}
 button {
   cursor: pointer;
 }
-.container {
-  width: 1158px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px}
+
 
 /* header */
 .main-header {  border-bottom: 1px solid #e7e9fc;}
@@ -78,15 +82,17 @@ gap: 40px;
 .header-container {display: flex;
   align-items: center;
 }
-.link-logo {margin-right: 76px;}
+
 /* list navigation */
+.list-nav {display: flex;}
   .list-link { 
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
     color: var(--color-main);
-    padding: 24px 0;}
+    padding-top: 24px;
+    padding-bottom: 24px;}
     .list-link:hover,
     .list-link:focus {color: #404BBF;}
     .list-link:visited {color:#2E2F42;}
@@ -257,6 +263,7 @@ gap: 24px;}
   text-align: center;
 }
 /* footer logo and text */
+.link-logo-footer {display: inline-block;}
 .footer {
   background-color: #2e2f42;
   padding-top: 100px;
@@ -266,7 +273,7 @@ gap: 24px;}
   font-weight: 800;
   font-size: 18px;
   line-height: 21px;
-  display: flex;
+  
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -281,8 +288,9 @@ gap: 24px;}
   color: #f4f4fd;
 }
 
-.link-logo-footer {display: inline-block;
-margin-bottom: 16px;}
+.link-logo-footer {
+margin-bottom: 16px;
+margin-right: 0;}
 
 /* PORTFOLIO CSS */
 /* PORTFOLIO CSS */
@@ -302,8 +310,7 @@ margin-bottom: 16px;}
   color: var(--color-button);
   border:1px solid var(--border-button);
   background: #f4f4fd;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
+  
   border-radius: 4px;
   cursor: pointer;
   padding: 12px 24px;
@@ -312,7 +319,9 @@ margin-bottom: 16px;}
 .portfolio-btn:hover
 { background-color: #404BBF;
 color: #FFFFFF;
-border: 1px solid transparent}
+border: 1px solid transparent;
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);}
 /* photo list */
 .photo-name {
   font-weight: 500;
